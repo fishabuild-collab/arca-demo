@@ -1,0 +1,590 @@
+{
+  "_note": "All parties fictional. Mock documents in fallback_kit/docs (PDF + .txt text layer). Market comps from public 2026 press reports (SCMP, The Standard).",
+  "deal": {
+    "name": "Flat C, High Floor, Tower 8B, The Pavilia Farm III (柏傲莊III)",
+    "district": "Tai Wai",
+    "bedrooms": 3,
+    "saleable_area_sqft": 814,
+    "price_hkd": 19700000,
+    "price_per_sqft": 24201,
+    "reported_date": "2026-06-10",
+    "purchaser_entity": "HARBOUR CREST HOLDINGS LIMITED (fictional)",
+    "vendor_entity": "TAI WAI RIDGE DEVELOPMENT LIMITED (fictional)"
+  },
+  "documents": [
+    {
+      "id": "D1",
+      "name": "Sale & Purchase Agreement",
+      "type": "Legal",
+      "status": "Received",
+      "pages": 3,
+      "uploaded_by": "Legal – Wong & Partners (fictional)",
+      "date": "2026-06-12",
+      "access": [
+        "Investment Team",
+        "Lawyer",
+        "Banker"
+      ],
+      "file": "fallback_kit/docs/D1_SP_Agreement.pdf",
+      "text": "fallback_kit/docs/D1_SP_Agreement.txt"
+    },
+    {
+      "id": "D2",
+      "name": "Provisional Agreement (signed)",
+      "type": "Legal",
+      "status": "Outstanding",
+      "pages": 0,
+      "uploaded_by": null,
+      "date": null,
+      "access": [
+        "Investment Team",
+        "Lawyer"
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Floor Plan – Tower 8B Flat C",
+      "type": "Technical",
+      "status": "Received",
+      "pages": 1,
+      "uploaded_by": "Sales Ops",
+      "date": "2026-06-11",
+      "access": [
+        "Investment Team",
+        "Lawyer",
+        "Banker",
+        "External Buyer"
+      ],
+      "file": "fallback_kit/docs/D3_Floor_Plan.pdf",
+      "text": "fallback_kit/docs/D3_Floor_Plan.txt"
+    },
+    {
+      "id": "D4",
+      "name": "Independent Valuation Report",
+      "type": "Valuation",
+      "status": "Received",
+      "pages": 2,
+      "uploaded_by": "Valuer – Knight Valuers (fictional)",
+      "date": "2026-06-14",
+      "access": [
+        "Investment Team",
+        "Banker"
+      ],
+      "file": "fallback_kit/docs/D4_Valuation_Report.pdf",
+      "text": "fallback_kit/docs/D4_Valuation_Report.txt"
+    },
+    {
+      "id": "D5",
+      "name": "Payment Schedule",
+      "type": "Finance",
+      "status": "Received",
+      "pages": 1,
+      "uploaded_by": "Finance",
+      "date": "2026-06-12",
+      "access": [
+        "Investment Team",
+        "Lawyer",
+        "Banker",
+        "External Buyer"
+      ],
+      "file": "fallback_kit/docs/D5_Payment_Schedule.pdf",
+      "text": "fallback_kit/docs/D5_Payment_Schedule.txt"
+    },
+    {
+      "id": "D6",
+      "name": "Land Registry Search",
+      "type": "Ownership",
+      "status": "Received",
+      "pages": 4,
+      "uploaded_by": "Legal – Wong & Partners (fictional)",
+      "date": "2026-06-13",
+      "access": [
+        "Investment Team",
+        "Lawyer",
+        "Banker"
+      ]
+    },
+    {
+      "id": "D7",
+      "name": "Mortgage Approval Letter",
+      "type": "Finance",
+      "status": "Received",
+      "pages": 1,
+      "uploaded_by": "Banker – HK Bank (fictional)",
+      "date": "2026-06-20",
+      "access": [
+        "Investment Team",
+        "Banker"
+      ],
+      "file": "fallback_kit/docs/D7_Mortgage_Letter.pdf",
+      "text": "fallback_kit/docs/D7_Mortgage_Letter.txt"
+    },
+    {
+      "id": "D8",
+      "name": "Sales Brochure (SRPE)",
+      "type": "Marketing",
+      "status": "Received",
+      "pages": 60,
+      "uploaded_by": "Auto-sync: SRPE",
+      "date": "2026-04-02",
+      "access": [
+        "Investment Team",
+        "Lawyer",
+        "Banker",
+        "External Buyer"
+      ]
+    },
+    {
+      "id": "D9",
+      "name": "Deposit Receipt",
+      "type": "Finance",
+      "status": "Received",
+      "pages": 1,
+      "uploaded_by": "Finance",
+      "date": "2026-06-12",
+      "access": [
+        "Investment Team",
+        "Lawyer"
+      ],
+      "file": "fallback_kit/docs/D9_Deposit_Receipt.pdf",
+      "text": "fallback_kit/docs/D9_Deposit_Receipt.txt"
+    },
+    {
+      "id": "D10",
+      "name": "Completion Receipt",
+      "type": "Finance",
+      "status": "Outstanding",
+      "pages": 0,
+      "uploaded_by": null,
+      "date": null,
+      "access": [
+        "Investment Team",
+        "Lawyer"
+      ]
+    }
+  ],
+  "extracted_fields": [
+    {
+      "field": "Purchase price",
+      "value": "HK$19,700,000",
+      "source": "D1",
+      "page": 3,
+      "quote": "the Purchase Price of HK$19,700,000",
+      "confidence": 0.98
+    },
+    {
+      "field": "Saleable area",
+      "value": "814 sq ft",
+      "source": "D1",
+      "page": 2,
+      "quote": "saleable area of 814 square feet",
+      "confidence": 0.96
+    },
+    {
+      "field": "Price per sq ft",
+      "value": "HK$24,201",
+      "source": "computed",
+      "page": null,
+      "quote": "19,700,000 ÷ 814",
+      "confidence": 0.99
+    },
+    {
+      "field": "Completion date",
+      "value": "15 Sep 2026",
+      "source": "D1",
+      "page": 3,
+      "quote": "Completion shall take place on or before 15 September 2026",
+      "confidence": 0.94
+    },
+    {
+      "field": "Initial deposit",
+      "value": "HK$985,000 (5%)",
+      "source": "D9",
+      "page": 1,
+      "quote": "Received HK$985,000 being initial deposit",
+      "confidence": 0.97
+    },
+    {
+      "field": "Approved loan",
+      "value": "HK$13,650,000 (70% of valuation)",
+      "source": "D7",
+      "page": 1,
+      "quote": "Approved loan amount HK$13,650,000",
+      "confidence": 0.95
+    },
+    {
+      "field": "Purchaser",
+      "value": "HARBOUR CREST HOLDINGS LIMITED (fictional)",
+      "source": "D1",
+      "page": 1,
+      "quote": "HARBOUR CREST HOLDINGS LIMITED ... (the \"Purchaser\")",
+      "confidence": 0.99
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "Saleable area",
+      "severity": "high",
+      "a": {
+        "doc": "D1",
+        "page": 2,
+        "quote": "saleable area of 814 square feet"
+      },
+      "b": {
+        "doc": "D3",
+        "page": 1,
+        "quote": "Saleable Area: 797 sq ft"
+      },
+      "ai_explanation": "Agreement and floor plan differ by 17 sq ft (2.1%). This affects $/sqft (HK$24,201 vs HK$24,718) and may indicate the floor plan is for a different stack. Verify against the SRPE sales brochure (D8)."
+    },
+    {
+      "field": "Completion date",
+      "severity": "high",
+      "a": {
+        "doc": "D1",
+        "page": 3,
+        "quote": "on or before 15 September 2026"
+      },
+      "b": {
+        "doc": "D5",
+        "page": 1,
+        "quote": "Balance payable upon completion: 30 Sep 2026"
+      },
+      "ai_explanation": "Payment schedule completion (30 Sep) is 15 days later than the S&P Agreement and the mortgage drawdown deadline (both 15 Sep). Time is of the essence, so missing 15 Sep could trigger default. Lawyer review required."
+    },
+    {
+      "field": "Price vs valuation",
+      "severity": "medium",
+      "a": {
+        "doc": "D1",
+        "page": 3,
+        "quote": "Purchase Price of HK$19,700,000"
+      },
+      "b": {
+        "doc": "D4",
+        "page": 2,
+        "quote": "Market value: HK$19,500,000"
+      },
+      "ai_explanation": "Purchase price is 1.0% above valuation. The bank lends 70% of the lower figure (HK$13.65M vs HK$13.79M), so the purchaser must fund about HK$140k more in cash."
+    }
+  ],
+  "comps": [
+    {
+      "project": "The Pavilia Farm III",
+      "label": "Hero unit – Flat C T8B",
+      "area": 814,
+      "price_hkd": 19700000,
+      "psf": 24201,
+      "date": "2026-06",
+      "hero": true
+    },
+    {
+      "project": "The Pavilia Farm III",
+      "label": "First price list avg (after discount)",
+      "area": null,
+      "price_hkd": null,
+      "psf": 21344,
+      "date": "2026-04"
+    },
+    {
+      "project": "The Pavilia Farm III",
+      "label": "3-bed by tender",
+      "area": 797,
+      "price_hkd": 22950000,
+      "psf": 28801,
+      "date": "2026"
+    },
+    {
+      "project": "The Pavilia Farm III",
+      "label": "2-bed record",
+      "area": 475,
+      "price_hkd": 13450000,
+      "psf": 28312,
+      "date": "2026"
+    },
+    {
+      "project": "The Pavilia Farm III",
+      "label": "2-bed",
+      "area": 534,
+      "price_hkd": 11224000,
+      "psf": 21019,
+      "date": "2026"
+    }
+  ],
+  "super_prime": [
+    {
+      "project": "21 Borrett Road (penthouse)",
+      "developer": "CK Asset",
+      "district": "Mid-Levels",
+      "price_hkd": 380770000,
+      "psf": 126000,
+      "date": "2026-06"
+    },
+    {
+      "project": "Twelve Peaks (house)",
+      "developer": "SHKP",
+      "district": "The Peak",
+      "area": 4359,
+      "price_hkd": 352000000,
+      "psf": 80752,
+      "date": "2026"
+    },
+    {
+      "project": "Legacy",
+      "developer": "Henderson / NWD",
+      "district": "Mid-Levels West",
+      "price_hkd": 355000000,
+      "psf": 75363,
+      "date": "2026"
+    }
+  ],
+  "buyers": [
+    {
+      "name": "Buyer A – Mr. Chan (fictional)",
+      "role": "External Buyer",
+      "views": {
+        "D3": 6,
+        "D8": 9,
+        "D5": 2
+      },
+      "last_seen": "2 min ago"
+    },
+    {
+      "name": "Buyer B – Ms. Leung (fictional)",
+      "role": "External Buyer",
+      "views": {
+        "D3": 4,
+        "D8": 3,
+        "D5": 14
+      },
+      "last_seen": "just now"
+    },
+    {
+      "name": "Buyer C – Lam Family Office (fictional)",
+      "role": "External Buyer",
+      "views": {
+        "D8": 2
+      },
+      "last_seen": "3 days ago"
+    }
+  ],
+  "audit_seed": [
+    "Ms. Leung (External Buyer) viewed Payment Schedule p.2 – 6m 12s",
+    "Wong & Partners (Lawyer) downloaded S&P Agreement – watermarked",
+    "AI flagged conflict: Saleable area (D1 vs D3)",
+    "HK Bank (Banker) viewed Valuation Report",
+    "Auto-sync: SRPE register updated – 3 new Tai Wai transactions",
+    "Mr. Chan (External Buyer) blocked from Valuation Report – no permission",
+    "Investment Team approved extraction: Purchase price"
+  ],
+  "reference_case": "Organiser brief: Flat C, high floor, Tower 8B, The Pavilia Farm III, 814 sq ft, ~HK$19.7M, reported 10 Jun 2026. Demo uses fictional parties for this unit.",
+  "guest_identities": [
+    "guest01@demo.arca.room",
+    "guest02@demo.arca.room",
+    "guest03@demo.arca.room",
+    "guest04@demo.arca.room",
+    "guest05@demo.arca.room",
+    "guest06@demo.arca.room",
+    "guest07@demo.arca.room",
+    "guest08@demo.arca.room",
+    "guest09@demo.arca.room",
+    "guest10@demo.arca.room",
+    "guest11@demo.arca.room",
+    "guest12@demo.arca.room"
+  ],
+  "cached_ai": {
+    "_use": "Fallback when the local model is slow or down. Mark as processed_by:'cached'.",
+    "follow_up_en": "Dear Ms. Leung, thank you for reviewing the payment schedule for Flat C, Tower 8B at The Pavilia Farm III. As the balance falls due on completion, our team can walk you through mortgage options and the deposit timeline this week. Would Thursday at 3pm suit for a 20-minute call? — Arca Sales Team",
+    "follow_up_zh": "梁小姐您好，感謝您查閱柏傲莊III 8B座C室的付款時間表。由於餘款須於成交時支付，我們的團隊可於本週為您講解按揭方案及訂金安排。請問星期四下午三時方便進行二十分鐘的通話嗎？— Arca 銷售團隊",
+    "ask_the_room": [
+      {
+        "q": "What is the completion date?",
+        "a": "The S&P Agreement says on or before 15 Sep 2026 (D1 p.3), but the Payment Schedule says 30 Sep 2026 (D5 p.1). This is flagged as a conflict for lawyer review."
+      },
+      {
+        "q": "How much will the bank lend?",
+        "a": "HK$13,650,000, which is 70% of the lower of price and valuation (D7 p.1)."
+      },
+      {
+        "q": "Is the unit priced in line with the market?",
+        "a": "At HK$24,201/sq ft it is 13% above the April first price-list average (HK$21,344) and 16% below the latest 3-bed tender (HK$28,801). Sources: SRPE and press reports."
+      },
+      {
+        "q": "What is the valuation?",
+        "a_by_role": {
+          "External Buyer": "You don't have access to the Valuation Report. Request access from the deal owner.",
+          "default": "Market value HK$19,500,000 (D4 p.2)."
+        }
+      },
+      {
+        "q": "Which documents are outstanding?",
+        "a": "The signed Provisional Agreement (D2) and the Completion Receipt (D10)."
+      }
+    ],
+    "pricing_recommendation": {
+      "range_psf": [
+        25500,
+        27500
+      ],
+      "reasoning": [
+        "Hero unit transacted at HK$24,201/sq ft, 16% below the latest 3-bed tender (HK$28,801)",
+        "The 2-bed record (HK$28,312) shows demand at the top of the range",
+        "Launch average HK$21,344 sets the floor; the market has moved up about 13–35% since April",
+        "Suggest the next batch of high-floor 3-beds at HK$25.5k–27.5k/sq ft, then review after 2 weeks of sell-through"
+      ]
+    },
+    "jev": {
+      "_use": "Fallback when TYPESAFE_API_KEY is missing or the network fails. Values recorded from real jev-latest calls on 2026-10-02.",
+      "doctype": {
+        "state_sent": "FLOOR PLAN — TOWER [X], FLAT [X] · Saleable Area: [NUM] sq ft · Balcony [NUM] sq ft",
+        "answers": {
+          "doc_type": {
+            "type": "choice",
+            "choice": "floor_plan",
+            "confidence": 0.94,
+            "probabilities": {
+              "floor_plan": 0.96,
+              "sp_agreement": 0.01,
+              "valuation": 0.01,
+              "payment_schedule": 0.01,
+              "other": 0.01
+            }
+          }
+        },
+        "latency_ms": 472
+      },
+      "intent": {
+        "state_sent": "Deal room activity for one prospective buyer of a HK$19.7M flat over the last 48 hours: opened the Payment Schedule 3 times for 14 minutes total; viewed the Floor Plan for 4 minutes; viewed the Sales Brochure for 3 minutes; asked about mortgage loan-to-value; last active 1 minute ago. Typical buyers spend under 2 minutes per document.",
+        "answers": {
+          "deep_engagement": {
+            "type": "noul",
+            "noul": 0.9
+          },
+          "financing_focus": {
+            "type": "noul",
+            "noul": 0.92
+          },
+          "recent": {
+            "type": "noul",
+            "noul": 0.96
+          },
+          "intent": {
+            "type": "choice",
+            "choice": "hot",
+            "confidence": 0.97
+          }
+        },
+        "latency_ms": 489
+      },
+      "question": {
+        "state_sent": "Client question: What is the valuation of the flat?",
+        "answers": {
+          "target_doc": {
+            "type": "choice",
+            "choice": "valuation_report",
+            "confidence": 1.0
+          },
+          "asks_internal_pricing": {
+            "type": "noul",
+            "noul": 0.96
+          }
+        },
+        "latency_ms": 324
+      },
+      "conflict": {
+        "state_sent": "Field: saleable area. S&P Agreement 814 sq ft vs floor plan 797 sq ft. Difference 17 sq ft (2.1%), $/sq ft HK$24,201 → HK$24,718. Time is of the essence; saleable area defined by statute (Cap. 621).",
+        "answers": {
+          "material": {
+            "type": "noul",
+            "noul": 0.9
+          },
+          "legal_review": {
+            "type": "noul",
+            "noul": 0.93
+          },
+          "reviewer": {
+            "type": "choice",
+            "choice": "lawyer",
+            "confidence": 1.0
+          }
+        },
+        "latency_ms": 326
+      },
+      "sentiment": {
+        "state_sent": "Headlines: 21 Borrett Road penthouse sets HK$126,000/sq ft record. Pavilia Farm III 2-bed hits record HK$13.45m. Peak mansion sells at 35% discount.",
+        "answers": {
+          "sentiment": {
+            "type": "score",
+            "score": 1.17,
+            "confidence": 0.41,
+            "legend": {
+              "0": "Bearish",
+              "1": "Neutral",
+              "2": "Bullish"
+            }
+          }
+        },
+        "latency_ms": 297,
+        "_note": "Mixed headlines → low confidence → goes to the analyst queue. Good demo of confidence gating."
+      }
+    }
+  },
+  "audit_replay": [
+    "guest03@demo.arca.room joined the room (External Buyer)",
+    "guest03@demo.arca.room viewed Floor Plan – watermarked",
+    "guest07@demo.arca.room joined the room (External Buyer)",
+    "guest07@demo.arca.room tried Valuation Report – 403 ACCESS DENIED (never sent)",
+    "guest01@demo.arca.room viewed Payment Schedule p.1 – 2m 40s",
+    "Local AI 🔒 re-checked D1 vs D5 – conflict confirmed",
+    "guest11@demo.arca.room viewed Sales Brochure",
+    "guest07@demo.arca.room tried Valuation Report again – 403, attempt logged"
+  ],
+  "client_portal": {
+    "demo_client": {
+      "id": "leung",
+      "name": "Ms. Leung (fictional)",
+      "email": "leung@demo.arca.room"
+    },
+    "welcome": "Welcome to your private deal room for Flat C, Tower 8B, The Pavilia Farm III. Documents shared with you appear here, watermarked to you.",
+    "initially_shared": [
+      "D3",
+      "D8"
+    ],
+    "share_during_demo": "D5",
+    "revoke_during_demo": "D3",
+    "requested_from_client": [
+      {
+        "doc": "D2",
+        "label": "Signed Provisional Agreement",
+        "due": "within 5 working days",
+        "template": "D2_Provisional_Agreement.pdf",
+        "sign_boxes": [
+          {
+            "field": "signature",
+            "page": 2,
+            "x": 311.8,
+            "y": 484.7,
+            "w": 221.1,
+            "h": 79.4
+          },
+          {
+            "field": "date",
+            "page": 2,
+            "x": 345.8,
+            "y": 435.1,
+            "w": 113.4,
+            "h": 22.7
+          }
+        ],
+        "_coords": "PDF points, origin bottom-left, A4 595x842"
+      }
+    ],
+    "inbox_seed": [
+      {
+        "from": "Arca Sales Team",
+        "ts": "2026-06-12 10:05",
+        "text": "Your private deal room is ready. Please upload the signed Provisional Agreement when available."
+      }
+    ]
+  }
+}

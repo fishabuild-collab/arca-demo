@@ -1,0 +1,11 @@
+=== D7 Mortgage Approval Letter — Page 1 ===
+MORTGAGE APPROVAL IN PRINCIPLE
+HK Bank (fictional) · 20 June 2026
+To: HARBOUR CREST HOLDINGS LIMITED (fictional)
+Re: Flat C, High Floor, Tower 8B, The Pavilia Farm III (柏傲莊III), Tai Wai, New Territories
+Lending basis | lower of Purchase Price (HK$19,700,000) and Valuation (HK$19,500,000) |
+Loan-to-value | 70% |
+Approved loan amount | HK$13,650,000 |
+Tenor | 25 years |
+Drawdown | on Completion, not later than 15 September 2026 |
+This approval is valid for 90 days and subject to satisfactory title.

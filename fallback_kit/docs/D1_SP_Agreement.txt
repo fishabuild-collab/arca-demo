@@ -1,0 +1,29 @@
+=== D1 Agreement for Sale and Purchase — Page 1 ===
+AGREEMENT FOR SALE AND PURCHASE
+買賣合約 · Ref. ARC/PF3/8B-C/2026
+THIS AGREEMENT is made on the 12th day of June 2026
+BETWEEN TAI WAI RIDGE DEVELOPMENT LIMITED (fictional), whose registered office is situate at 18/F, Mock Tower, 1 Example Road, Central, Hong Kong (the "Vendor");
+AND HARBOUR CREST HOLDINGS LIMITED (fictional), whose registered office is situate at Unit 5, 9/F, Sample Centre, 2 Demo Street, Kowloon (the "Purchaser").
+WHEREAS the Vendor is the registered owner of the Property described in Part 1 of the Schedule and has agreed to sell and the Purchaser has agreed to purchase the Property upon the terms herein.
+
+=== D1 Agreement for Sale and Purchase — Page 2 ===
+Part 1 — The Property
+ALL THAT Flat C, High Floor, Tower 8B, The Pavilia Farm III (柏傲莊III), Tai Wai, New Territories.
+Item | Particulars |
+Development | The Pavilia Farm III |
+Tower / Floor / Flat | Tower 8B / High Floor / Flat C |
+Layout | 3 bedrooms (1 en-suite), living/dining, open kitchen |
+Saleable area | saleable area of 814 square feet (75.6 m²) |
+Balcony / Utility platform | included in saleable area |
+The saleable area stated above is as defined in the Residential Properties (First-hand Sales) Ordinance (Cap. 621).
+
+=== D1 Agreement for Sale and Purchase — Page 3 ===
+Part 2 — Consideration and Completion
+Purchase Price | the Purchase Price of HK$19,700,000 (Hong Kong Dollars Nineteen Million Seven Hundred Thousand) |
+Initial deposit (5%) | HK$985,000 paid upon signing of the Preliminary Agreement |
+Further deposit (5%) | HK$985,000 payable within 30 days of this Agreement |
+Balance (90%) | HK$17,730,000 payable upon Completion |
+Completion shall take place on or before 15 September 2026 at the offices of the Vendor's solicitors.
+Time shall in every respect be of the essence of this Agreement.
+For and on behalf of the Vendor
+For and on behalf of the Purchaser
