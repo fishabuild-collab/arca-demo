@@ -7,7 +7,7 @@
   const USERS = {
     inv: { role: 'Investment Team', user: 'Alex (Investment)' },
     law: { role: 'Lawyer', user: 'Wong & Partners (Lawyer)' },
-    bank: { role: 'Banker', user: 'HSBC Mortgages (Banker)' },
+    bank: { role: 'Banker', user: 'HK Bank (Banker)' },
     buyer: { role: 'External Buyer', user: 'Mr. Chan (Buyer)' },
   };
   const realFetch = window.fetch.bind(window);

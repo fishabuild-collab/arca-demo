@@ -5,7 +5,7 @@
   const USERS = {
     inv: { role: 'Investment Team', user: 'Alex (Investment)', initials: 'AL' },
     law: { role: 'Lawyer', user: 'Wong & Partners (Lawyer)', initials: 'WP' },
-    bank: { role: 'Banker', user: 'HSBC Mortgages (Banker)', initials: 'HB' },
+    bank: { role: 'Banker', user: 'HK Bank (Banker)', initials: 'HB' },
     buyer: { role: 'External Buyer', user: 'Mr. Chan (Buyer)', initials: 'MC' },
   };
 

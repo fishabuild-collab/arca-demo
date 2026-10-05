@@ -1,7 +1,7 @@
 {
   "_note": "All parties fictional. Mock documents in fallback_kit/docs (PDF + .txt text layer). Market comps from public 2026 press reports (SCMP, The Standard).",
   "deal": {
-    "name": "Flat C, High Floor, Tower 8B, The Pavilia Farm III (柏傲莊III)",
+    "name": "Flat C, High Floor, Tower 8B, Tai Wai Ridge (大圍嶺峰)",
     "district": "Tai Wai",
     "bedrooms": 3,
     "saleable_area_sqft": 814,
@@ -270,7 +270,7 @@
   ],
   "comps": [
     {
-      "project": "The Pavilia Farm III",
+      "project": "Tai Wai Ridge",
       "label": "Hero unit – Flat C T8B",
       "area": 814,
       "price_hkd": 19700000,
@@ -279,7 +279,7 @@
       "hero": true
     },
     {
-      "project": "The Pavilia Farm III",
+      "project": "Tai Wai Ridge",
       "label": "First price list avg (after discount)",
       "area": null,
       "price_hkd": null,
@@ -287,7 +287,7 @@
       "date": "2026-04"
     },
     {
-      "project": "The Pavilia Farm III",
+      "project": "Tai Wai Ridge",
       "label": "3-bed by tender",
       "area": 797,
       "price_hkd": 22950000,
@@ -295,7 +295,7 @@
       "date": "2026"
     },
     {
-      "project": "The Pavilia Farm III",
+      "project": "Tai Wai Ridge",
       "label": "2-bed record",
       "area": 475,
       "price_hkd": 13450000,
@@ -303,7 +303,7 @@
       "date": "2026"
     },
     {
-      "project": "The Pavilia Farm III",
+      "project": "Tai Wai Ridge",
       "label": "2-bed",
       "area": 534,
       "price_hkd": 11224000,
@@ -377,7 +377,7 @@
     "Mr. Chan (External Buyer) blocked from Valuation Report – no permission",
     "Investment Team approved extraction: Purchase price"
   ],
-  "reference_case": "Organiser brief: Flat C, high floor, Tower 8B, The Pavilia Farm III, 814 sq ft, ~HK$19.7M, reported 10 Jun 2026. Demo uses fictional parties for this unit.",
+  "reference_case": "Organiser brief: Flat C, high floor, Tower 8B, Tai Wai Ridge, 814 sq ft, ~HK$19.7M, reported 10 Jun 2026. Demo uses fictional parties for this unit.",
   "guest_identities": [
     "guest01@demo.arca.room",
     "guest02@demo.arca.room",
@@ -394,8 +394,8 @@
   ],
   "cached_ai": {
     "_use": "Fallback when the local model is slow or down. Mark as processed_by:'cached'.",
-    "follow_up_en": "Dear Ms. Leung, thank you for reviewing the payment schedule for Flat C, Tower 8B at The Pavilia Farm III. As the balance falls due on completion, our team can walk you through mortgage options and the deposit timeline this week. Would Thursday at 3pm suit for a 20-minute call? — Arca Sales Team",
-    "follow_up_zh": "梁小姐您好，感謝您查閱柏傲莊III 8B座C室的付款時間表。由於餘款須於成交時支付，我們的團隊可於本週為您講解按揭方案及訂金安排。請問星期四下午三時方便進行二十分鐘的通話嗎？— Arca 銷售團隊",
+    "follow_up_en": "Dear Ms. Leung, thank you for reviewing the payment schedule for Flat C, Tower 8B at Tai Wai Ridge. As the balance falls due on completion, our team can walk you through mortgage options and the deposit timeline this week. Would Thursday at 3pm suit for a 20-minute call? — Arca Sales Team",
+    "follow_up_zh": "梁小姐您好，感謝您查閱大圍嶺峰 8B座C室的付款時間表。由於餘款須於成交時支付，我們的團隊可於本週為您講解按揭方案及訂金安排。請問星期四下午三時方便進行二十分鐘的通話嗎？— Arca 銷售團隊",
     "ask_the_room": [
       {
         "q": "What is the completion date?",
@@ -511,7 +511,7 @@
         "latency_ms": 326
       },
       "sentiment": {
-        "state_sent": "Headlines: 21 Borrett Road penthouse sets HK$126,000/sq ft record. Pavilia Farm III 2-bed hits record HK$13.45m. Peak mansion sells at 35% discount.",
+        "state_sent": "Headlines: 21 Borrett Road penthouse sets HK$126,000/sq ft record. Tai Wai Ridge 2-bed hits record HK$13.45m. Peak mansion sells at 35% discount.",
         "answers": {
           "sentiment": {
             "type": "score",
@@ -545,7 +545,7 @@
       "name": "Ms. Leung (fictional)",
       "email": "leung@demo.arca.room"
     },
-    "welcome": "Welcome to your private deal room for Flat C, Tower 8B, The Pavilia Farm III. Documents shared with you appear here, watermarked to you.",
+    "welcome": "Welcome to your private deal room for Flat C, Tower 8B, Tai Wai Ridge. Documents shared with you appear here, watermarked to you.",
     "initially_shared": [
       "D3",
       "D8"
